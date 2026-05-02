@@ -27,3 +27,4 @@
 
 - <img width="760" height="827" alt="С" src="https://github.com/user-attachments/assets/45b511cd-8d9a-4e99-aa03-b75306a9d95b" />
 
+
