@@ -1,0 +1,40 @@
+---SELECT id, name, age FROM students WHERE id IN (130, 129, 128);
+---SELECT name, age FROM students WHERE age IN (15, 17);
+---SELECT id, title, mentor FROM courses WHERE id IN (101, 105, 110);
+---SELECT title, mentor FROM courses WHERE title IN ('Python для профи', 'Data Science'); 
+---SELECT title, mentor FROM courses WHERE mentor IN ('Антон', 'Эндрю');
+---SELECT id_order, id_student, id_course, start_date, end_date FROM enrollments WHERE id_course IN (101, 102, 103);
+---SELECT id_order, id_student, id_course FROM enrollments WHERE id_student IN (2, 5, 8);
+---SELECT id, name, age FROM students WHERE age BETWEEN 16 AND 18
+---SELECT id, name FROM students WHERE id BETWEEN 5 AND 10
+---SELECT id, title, mentor FROM courses WHERE id BETWEEN 105 AND 110
+---SELECT id_order, id_student, id_course FROM enrollments WHERE id_order BETWEEN 10 AND 20
+---SELECT id_student, id_course, start_date FROM enrollments WHERE start_date BETWEEN '05.09.2026' AND '15.09.2026'
+---SELECT id_student, id_course, end_date FROM enrollments WHERE end_date BETWEEN '10.12.2026' AND '20.12.2026'
+---SELECT name, age FROM students WHERE age BETWEEN 15 AND 17
+---SELECT id, name, age FROM students WHERE age >= 16 AND age <= 18
+---SELECT id_order, id_student, id_course FROM enrollments WHERE id_student = 5 AND id_course = 105
+---SELECT id, title, mentor FROM courses WHERE title = 'Python для профи' AND mentor = 'Антон'
+---SELECT id, name, age FROM students WHERE age = 15 OR age = 19
+---SELECT id, title, mentor FROM courses WHERE mentor = 'Антон' OR mentor = 'Эндрю'
+---SELECT id_order, id_student FROM enrollments WHERE id_student = 3 OR id_student = 7
+---SELECT id, name, age FROM students wHERE NOT age = 19
+---SELECT id, title FROM courses WHERE NOT title = 'Веб-дизайн'
+---SELECT id_order, id_student FROM enrollments WHERE NOT id_student = 10
+---SELECT id, name, age FROM students WHERE age IS NULL
+---SELECT id, title, mentor FROM courses WHERE mentor IS NULL
+---SELECT id_order, id_student, end_date FROM enrollments WHERE end_date IS NULL
+---SELECT id, name, age FROM students WHERE age IS NOT NULL
+---SELECT id, title, mentor FROM courses WHERE mentor IS NOT NULL
+---SELECT id_order, id_student, end_date FROM enrollments WHERE end_date IS NOT NULL
+
+
+
+
+
+
+
+
+
+
+
